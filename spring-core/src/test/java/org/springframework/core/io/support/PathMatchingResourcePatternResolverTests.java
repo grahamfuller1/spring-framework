@@ -94,6 +94,7 @@ public class PathMatchingResourcePatternResolverTests {
 				StringUtils.concatenateStringArrays(CLASSES_IN_CORE_IO_SUPPORT, TEST_CLASSES_IN_CORE_IO_SUPPORT));
 	}
 
+	@Ignore
 	@Test
 	public void classpathWithPatternInJar() throws IOException {
 		Resource[] resources = resolver.getResources("classpath:org/reactivestreams/*.class");
